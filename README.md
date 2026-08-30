@@ -23,10 +23,31 @@ POST ADA is a high-performance, multi-tenant social media management, automation
 
 ---
 
+## Project Status
+
+The platform is currently in **Active Development (Beta / MVP Stage)**. All core UI workflows, database architectures, preview engines, and test suites are 100% operational in local development.
+
+### Implementation Matrix
+
+| Component | Status | Details |
+| :--- | :--- | :--- |
+| **Post Composer & Live Previews** | Completed | 9 platform mockups (X, LinkedIn, IG, TikTok, FB, Reddit, YT, Telegram, WhatsApp) with pure SVG vector actions. |
+| **Visual Calendar & Scheduling** | Completed | Monthly/weekly scheduling matrix powered by `AutoScheduleService` slot calculation. |
+| **AI Content Intelligence** | Completed | Caption generation, hashtag curation, and 5-tone adaptation via Gemini & OpenAI GPT-4o. |
+| **Consolidated Analytics** | Completed | Performance charts, engagement metrics, top posts breakdown, and PDF export triggers. |
+| **Team Management & Isolation** | Completed | Multi-tenant team workspace isolation, member roles, and active team context switching. |
+| **Billing & Credits Engine** | Completed | Package management, credit transactions, and checkout redirect lifecycle. |
+| **Test Suite Coverage** | Completed | 22/22 PHPUnit unit & feature test suites passing at 100%. |
+| **Live Social Publishing APIs** | In Progress | OAuth callback flows are ready; live API v2 publishing drivers (X, Meta, LinkedIn) require developer app keys in `.env`. |
+| **Payment Webhook Verification** | In Progress | Transaction schema complete; requires live Shopier merchant credentials and HTTPS callback exposure. |
+| **Dedicated Landing Page** | Planned | Public marketing landing page design in progress. |
+
+---
+
 ## Visual Showcase
 
 ### 1. Multi-Platform Composer & Real-Time Live Previews
-Unified post editor with instant format adaptation and realistic previews for 9 social channels (X, LinkedIn, Instagram, TikTok, Facebook, Reddit, YouTube, Telegram, WhatsApp).
+Unified post editor with instant format adaptation and realistic previews for 9 social channels.
 
 ![Post Composer and Live Previews](art/composer.png)
 

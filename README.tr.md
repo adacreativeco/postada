@@ -23,6 +23,27 @@ POST ADA; kreatif ajanslar, markalar ve modern içerik üreticileri için tasarl
 
 ---
 
+## Proje Geliştirme Durumu
+
+Platform şu anda **Aktif Geliştirme Sürecindedir (Beta / MVP Aşaması)**. Temel arayüz iş akışları, veritabanı mimarisi, önizleme motorları ve test paketleri yerel ortamda %100 çalışır durumdadır.
+
+### Geliştirme ve Tamamlanma Matrisi
+
+| Bileşen / Modül | Durum | Detaylar |
+| :--- | :--- | :--- |
+| **İçerik Editörü & Önizlemeler** | Tamamlandı | 9 platform mockup'ı (X, LinkedIn, IG, TikTok, FB, Reddit, YT, Telegram, WhatsApp) ve saf SVG butonları. |
+| **Görsel Takvim & Zamanlama** | Tamamlandı | `AutoScheduleService` yuva algoritmasıyla haftalık/aylık görsel planlama matrisi. |
+| **Yapay Zekâ İçerik Motoru** | Tamamlandı | Gemini ve OpenAI GPT-4o ile açıklama üretimi, hashtag önerisi ve 5 ton adaptasyonu. |
+| **Konsolide Analitik** | Tamamlandı | Performans grafikleri, etkileşim metrikleri, en iyi gönderiler ve PDF rapor tetikleyicisi. |
+| **Ekip Yönetimi & İzolasyon** | Tamamlandı | Çok kiracılı çalışma alanı izolasyonu, üye rolleri ve anında aktif ekip değiştirme. |
+| **Fiyatlandırma & Kredi Sistemi** | Tamamlandı | Paket yönetimi, kredi hareketleri ve ödeme yönlendirme yaşam döngüsü. |
+| **Otomatik Test Kapsamı** | Tamamlandı | 22/22 PHPUnit birim ve özellik testi %100 başarıyla geçmektedir. |
+| **Sosyal Medya Canlı API Sürücüleri** | Geliştiriliyor | OAuth bağlantı akışları hazır; canlı API v2 gönderi sürücüleri `.env` üzerinden geliştirici anahtarlarını beklemektedir. |
+| **Ödeme Webhook Doğrulaması** | Geliştiriliyor | Sipariş ve işlem şeması hazır; canlı Shopier mağaza anahtarları ve HTTPS callback gerektirir. |
+| **Özel Tanıtım Sayfası (Landing)** | Planlandı | POST ADA'ya özel ürün tanıtım (landing page) sayfası geliştirme aşamasındadır. |
+
+---
+
 ## Görsel Vitrin
 
 ### 1. Çoklu Platform Editörü & Gerçek Zamanlı Önizleme
