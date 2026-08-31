@@ -1,10 +1,10 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "adacreativeco/postada",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "Post ADA - Multi-Platform Social Media Automation & AI Intelligence Suite",
+    "keywords": ["laravel", "social-media", "automation", "ai", "content-scheduler"],
+    "license": "Apache-2.0",
     "require": {
         "php": "^8.2",
         "laravel/fortify": "^1.34",
