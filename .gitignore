@@ -1,8 +1,12 @@
 *.log
 .DS_Store
 .env
+.env.*
+.env*.backup
 .env.backup
 .env.production
+database/*.sqlite
+database/*.sqlite-journal
 .phpactor.json
 .phpunit.result.cache
 /.fleet
