@@ -21,11 +21,21 @@ jobs:
         extensions: mbstring, xml, ctype, iconv, intl, pdo, sqlite, pdo_sqlite, bcmath, soap, zip, fileinfo
         coverage: none
 
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
 
     - name: Install Dependencies
       run: composer install --no-interaction --prefer-dist --no-progress --no-scripts
+
+    - name: Build Frontend Assets (Vite)
+      run: |
+        npm install
+        npm run build
 
     - name: Generate Key
       run: php artisan key:generate
